@@ -1,0 +1,3 @@
+-r requirements.txt
+mne==1.12.1
+pyxdf==1.17.5

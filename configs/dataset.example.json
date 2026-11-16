@@ -1,0 +1,46 @@
+{
+  "sessions": [
+    {
+      "participant": "S1",
+      "session": "S1-D1",
+      "eeg": "../private/S1-D1/eeg.npy",
+      "trials": "../private/S1-D1/trials.csv"
+    },
+    {
+      "participant": "S1",
+      "session": "S1-D2",
+      "eeg": "../private/S1-D2/eeg.npy",
+      "trials": "../private/S1-D2/trials.csv"
+    },
+    {
+      "participant": "S1",
+      "session": "S1-D3",
+      "eeg": "../private/S1-D3/eeg.npy",
+      "trials": "../private/S1-D3/trials.csv"
+    },
+    {
+      "participant": "S2",
+      "session": "S2-D1",
+      "eeg": "../private/S2-D1/eeg.npy",
+      "trials": "../private/S2-D1/trials.csv"
+    },
+    {
+      "participant": "S2",
+      "session": "S2-D2",
+      "eeg": "../private/S2-D2/eeg.npy",
+      "trials": "../private/S2-D2/trials.csv"
+    },
+    {
+      "participant": "S2",
+      "session": "S2-D3",
+      "eeg": "../private/S2-D3/eeg.npy",
+      "trials": "../private/S2-D3/trials.csv"
+    },
+    {
+      "participant": "S2",
+      "session": "S2-D4",
+      "eeg": "../private/S2-D4/eeg.npy",
+      "trials": "../private/S2-D4/trials.csv"
+    }
+  ]
+}

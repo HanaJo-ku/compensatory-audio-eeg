@@ -1,0 +1,5 @@
+trial_index,target,state,audio
+0,class_1,CS,audio/segment_000.wav
+1,class_2,MS,audio/segment_001.wav
+2,class_3,AF,audio/segment_002.wav
+3,class_4,CS,audio/segment_003.wav

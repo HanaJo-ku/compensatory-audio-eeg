@@ -1,0 +1,48 @@
+{
+  "seed": 56,
+  "protocol": "within-session",
+  "model": {
+    "audio_model": "facebook/hubert-base-ls960",
+    "audio_revision": "dba3bb02fda4248b6e082697eee756de8fe8aa8a",
+    "freeze_audio_encoder": true,
+    "n_channels": 32,
+    "fusion_dim": 128,
+    "n_targets": 4,
+    "gate_dropout": [
+      0.25,
+      0.15
+    ],
+    "audio_head_dropout": 0.25,
+    "eeg_head_dropout": 0.25,
+    "eeg_d_model": 96,
+    "eeg_dropout": 0.4
+  },
+  "training": {
+    "batch_size": 8,
+    "max_epochs": 50,
+    "min_epochs": 10,
+    "patience": 10,
+    "lr": 0.0005,
+    "weight_decay": 0.0001,
+    "scheduler_factor": 0.5,
+    "scheduler_patience": 8,
+    "label_smoothing": 0.05,
+    "condition_weight_power": 0.5,
+    "audio_aux_weight": 0.5,
+    "eeg_aux_weight": 0.3,
+    "amp": true,
+    "log_every": 10
+  },
+  "data": {
+    "eeg_sampling_rate": 500,
+    "audio_sampling_rate": 16000,
+    "normalize_eeg_per_trial": true,
+    "crop_sec": 0.0,
+    "epoch_duration_sec": 3
+  },
+  "evaluation": {
+    "n_splits": 3,
+    "stratify": "target",
+    "selection": "training_loss"
+  }
+}
