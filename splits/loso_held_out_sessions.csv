@@ -1,0 +1,8 @@
+patient_id,loso_fold,held_out_session_id,n_test_trials
+S1,1,S1-D1,200
+S1,2,S1-D2,200
+S1,3,S1-D3,200
+S2,1,S2-D1,200
+S2,2,S2-D2,200
+S2,3,S2-D3,200
+S2,4,S2-D4,200

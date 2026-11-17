@@ -1,0 +1,8 @@
+patient_id,session_id,n_trials,n_recording_sessions
+S1,S1-D1,200,3
+S1,S1-D2,200,3
+S1,S1-D3,200,3
+S2,S2-D1,200,4
+S2,S2-D2,200,4
+S2,S2-D3,200,4
+S2,S2-D4,200,4
