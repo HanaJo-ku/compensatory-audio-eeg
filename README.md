@@ -1,4 +1,4 @@
-# Compensatory Audio–EEG Integration for Intention Decoding
+# Compensatory Audio–EEG Integration for Speech Target Decoding
 
 Implementation of the proposed compensatory audio–EEG model (`Ours`). The model combines frozen HuBERT audio features and EEG features through reliability-guided adaptive weighting.
 
